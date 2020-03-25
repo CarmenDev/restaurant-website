@@ -39,6 +39,13 @@ ul a:hover {
     opacity: 30%;
     color: white;
 }
+ul a.current {
+    background-color: darkred;
+    opacity: 35%;
+}
+ul a.current:hover {
+    opacity: 60%;
+}
 .header > h1 {
     text-align: center;
     font-size: 50px;
@@ -60,6 +67,7 @@ ul a:hover {
 }
 .btn-1:hover {
     opacity: 100%;
+    border: white 1px solid;
 }
 .btn-2 {
     background-color: white;
@@ -71,6 +79,7 @@ ul a:hover {
 }
 .btn-2:hover {
     opacity: 100%;
+    border: darkgrey 1px solid;
 }
 /*Cook and dish (Just the right food)*/
 .cook {
@@ -95,10 +104,16 @@ ul a:hover {
     height: 130px;
     width: 130px;
 }
+#about-cook:hover {
+    transform: scale(1.1);
+}
 #steak-plate {
     height: 340px;
     width: 340px;
     margin-top: 30px;
+}
+#steak-plate:hover {
+    transform: scale(1.1);
 }
 /*Ingredients (Fine ingredients)*/
 .ingredients {
@@ -117,6 +132,13 @@ ul a:hover {
     margin-left: 450px;
     font-size: small;
     text-align: center;
+}
+.container:hover {
+    opacity: 85%;
+}
+.container p {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .small-container {
     display: flex;
@@ -166,6 +188,13 @@ ul a:hover {
     text-align: center;
     margin: 50px 245px;
 }
+#box p {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#box:hover {
+    opacity: 90%;
+}
 /*Just the right food*/
 .right-food {
     height: 420px;
@@ -183,6 +212,7 @@ ul a:hover {
     padding-top: 40px;
     padding-left: 30px;
 }
+/*Just the right food - reservations*/
 .food-form {
     flex-direction: column;
     align-items: center;
@@ -197,6 +227,12 @@ ul a:hover {
     width: 250px;
     text-align: center;
 }
+.reservations {
+    flex-wrap: wrap;
+    font-family: 'Anaheim', sans-serif;
+    font-size: small;
+    color: goldenrod;
+}
 /*Book-now button*/
 .book-now {
     height: 25px;
@@ -205,6 +241,7 @@ ul a:hover {
     opacity: 60%;
     color: white;
     border: none;
+    margin-left: 60px;
 }
 .book-now:hover {
     opacity: 100%;
