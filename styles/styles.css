@@ -14,7 +14,13 @@ p, nav {
 .top-container {
     display: flex;
 }
-
+/*Logo*/
+.logo {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: -60px;
+}
+/*End of logo*/
 ul {
     list-style-type: none;
     display: inline-flex;
@@ -26,6 +32,7 @@ ul {
 }
 ul a {
     padding: 10px;
+    color: white;
 }
 ul a:hover {
     background-color: darkgreen;
