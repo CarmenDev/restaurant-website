@@ -5,9 +5,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Base Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Anaheim|Berkshire+Swash&display=swap" rel="stylesheet">
+    <title>Restaurant Website</title>
 </head>
 <body>
-    
+
+    <section class="header">
+        <div class="top-container">
+        <div class="logo"> <img src="/images/logo.png" alt="Lambda logo"> </div>
+        <nav class="topnav">
+            <ul>
+                <li><a href="#home" class="current">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#ingredients">Ingredients</a> </li>
+                <li><a href="#menu">Menu</a></li>
+                <li> <a href="#reviews">Reviews</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <h1> 
+            the right ingredients <br> for the right food
+        </h1>
+        <p>
+            <img src="/images/divider-white.png" alt="White divider">
+        </p>
+        <div class="buttons"> 
+            <button class="btn-1">BOOK A TABLE</button>
+            <button class="btn-2">SEE THE MENU</button>
+        </div>
+    </section>
+
+    <div class="cook">
+        <div> 
+            <h2>Just the right food</h2> 
+            <img src="/images/divider-gold.png" alt="Golden divider">
+            <p>If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lamba cakes, muffins, and gourmet coffes make us hard to resist! Stop in today and check us out!</p>
+            <img id="about-cook" src="/images/about-cook.png" alt="Cook decorating a plate">
+        </div>
+        <div>
+            <img id="steak-plate" src="/images/about-dish.png" alt="Plate">
+        </div>
+    </div>
+
+    <div class="ingredients">
+        <div class="container">
+            <h2>Fine ingredients</h2>
+            <img src="/images/divider-white.png" alt="White divider">
+            <p>If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lamba cakes, muffins, and gourmet coffes make us hard to resist! Stop in today and check us out!</p>
+            <div class="small-container">
+                <img class="miniatures" src="/images/ingredients-grains.png" alt="Grains">
+                <img class="miniatures" src="/images/ingredients-spices.png" alt="Spices">
+                <img class="miniatures" src="/images/ingredients-bread.png" alt="Bread">
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="item">
+            <h2>Appetisers <br><img src="/images/divider-gold.png" alt="Golden divider"></h2> 
+              <h3>Tzatsiki &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.99</h3>
+              <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+              <h3>Aubergine Salad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.50</h3>
+              <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+              <h3>Aubergine Salad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.25</h3>
+              <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+        </div>
+        <div class="item">
+            <h2>Starters <br><img src="/images/divider-gold.png" alt="Golden divider"></h2> 
+              <h3>Haloumi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.99</h3>
+              <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+              <h3>Spinach Pie &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$5.50</h3>
+              <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+        </div>
+        <div class="item">
+            <h2>Salads  <br><img src="/images/divider-gold.png" alt="Golden divider"></h2>
+              <h3>Olive Special &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.99</h3>
+              <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+              <h3>Greek Salad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.50</h3>
+              <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+              <h3>Gusto Salad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.25</h3>
+              <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+        </div>
+        <div class="item">
+            <h2>Main Dishes <br><img src="/images/divider-gold.png" alt="Golden divider"> </h2>
+              <h3>Cornish Mackerel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.99</h3>
+              <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+              <h3>Roast Lamb &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.50</h3>
+              <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+              <h3>Fried Chicken &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.25</h3>
+              <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+              <h3>Pastitsio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5.99</h3>
+              <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div id="box">
+            <h2>Guests Reviews</h2>
+            <img src="/images/divider-white.png" alt="White divider">
+             <strong><p>"If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lamba cakes, muffins, and gourmet coffes make us hard to resist! Stop in today and check us out!"</strong> <br> <br>
+                -food inc, New York
+            </p>
+        </div>
+
+    </div>
+
+    <div class="right-food">
+        <div>
+            <img src="/images/reservations-image-2.jpeg" alt="Reservation image left">
+            <img src="/images/reservations-image-1.jpeg" alt="Reservation image right">
+        </div>
+        <div class="food-form">
+            <h2>Just the right food<br><img src="/images/divider-gold.png" alt="Gold divider"></h2>
+            <p>If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food. <br> 
+            Delicious Lamba cakes, muffins, and gourmet coffes make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
+            <div class="reservations" >
+              <form action="/action_page.php">
+                <div>
+                  <label for="fname">Family Name</label>
+                  <input type="text" id="fname"><br>
+                  <label for="name">Name</label>
+                  <input type="text" id="name"><br>
+                </div>
+                <div>
+                  <label for="date" id="date">Date</label>
+                  <input type="text" id="date"><br>
+                  <label for="party-number" id="party-number">Party number</label>
+                  <input type="text" id="party-number">
+                </div>
+              </form>
+            <button class="book-now">Book now!</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div>
+            <h3>About Us</h3> 
+            <img src="/images/divider-white.png" alt="White divider">
+            <p>
+                Lambda's new and expanded Chelsea location represents a truly authentic <strong>Greek</strong> patisserie, featuring breakfastsor fresh croissants and steaming bowls of café. Lambda, the best restaurant in town.
+            </p>
+        </div>
+        <div> 
+            <h3>Opening Hours</h3>
+            <img src="/images/divider-white.png" alt="">
+            <p>
+                <strong>Mon-Thu:</strong> 7:00am-8:00pm    
+            </p> 
+            <p>
+                <strong>Fri-Sun:</strong>
+                7:00am-10:00pm
+            </p>
+            <p>Paiement methods</p>
+        </div>
+        <div> 
+            <h3>Our Location</h3> 
+            <img src="/images/divider-white.png" alt="White divider">
+            <p>
+                <strong>19th Paradise Street Sitia <br>128 Meserole Avenue</strong> 
+            </p>
+            <br>
+            <img src="/images/social-media-icons.png" alt="Social media icons">
+        </div>
+    </footer>
+
 </body>
 </html>

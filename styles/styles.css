@@ -1,0 +1,264 @@
+body {
+    font-family: 'Berkshire Swash', cursive;
+}
+p, nav {
+    font-family: 'Anaheim', sans-serif;
+}
+/*Header*/
+.header {
+    background-image: url(/images/promo-background.jpeg);
+    height: 420px;
+    width: 99.5%vw; 
+    color: white;
+}
+.top-container {
+    display: flex;
+}
+/*Logo*/
+.logo {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: -60px;
+}
+/*End of logo*/
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 20px;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;;
+    font-size: small;
+    margin-left: 240px;
+}
+ul a {
+    padding: 10px;
+    color: white;
+}
+ul a:hover {
+    background-color: darkgreen;
+    opacity: 30%;
+    color: white;
+}
+ul a.current {
+    background-color: darkred;
+    opacity: 35%;
+}
+ul a.current:hover {
+    opacity: 60%;
+}
+.header > h1 {
+    text-align: center;
+    font-size: 50px;
+
+}
+.header > p {
+    text-align: center;
+}
+.buttons {
+    text-align: center;
+}
+.btn-1 {
+    background-color: black;
+    height: 35px;
+    width: 140px;
+    opacity: 60%;
+    color: white;
+    border: none;
+}
+.btn-1:hover {
+    opacity: 100%;
+    border: white 1px solid;
+}
+.btn-2 {
+    background-color: white;
+    height: 35px;
+    width: 140px;
+    opacity: 30%;
+    color: black;
+    border: none;
+}
+.btn-2:hover {
+    opacity: 100%;
+    border: darkgrey 1px solid;
+}
+/*Cook and dish (Just the right food)*/
+.cook {
+    background-image: url(/images/about-background.jpeg);
+    height: 400px;
+    width: 99.5% vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.cook h2 {
+    color: goldenrod;
+    margin-top: 45px;
+}
+.cook p {
+    width: 300px;
+    font-size: small;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#about-cook {
+    height: 130px;
+    width: 130px;
+}
+#about-cook:hover {
+    transform: scale(1.1);
+}
+#steak-plate {
+    height: 340px;
+    width: 340px;
+    margin-top: 30px;
+}
+#steak-plate:hover {
+    transform: scale(1.1);
+}
+/*Ingredients (Fine ingredients)*/
+.ingredients {
+    background-image: url(/images/ingredients-background.jpeg);
+    height: 400px;
+    width: 99.5%vw;
+    display: flex;
+}
+.container {
+    height: 320px;
+    width: 320px;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    margin-top: 36px;
+    margin-left: 450px;
+    font-size: small;
+    text-align: center;
+}
+.container:hover {
+    opacity: 85%;
+}
+.container p {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.small-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.miniatures {
+    height: 65px;
+    width: 65px;
+    opacity: 100%;
+    /*How can I get non-transparent pictures here?*/
+}
+/*Menu*/
+.menu {
+    background-image: url(/images/menu-background.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 720px;
+}
+.item {
+    width: 50%vw; 
+    height: 220px;
+    margin: 20px;
+}
+.item h2, h3 {
+    color: goldenrod;
+}
+.item h2 {
+    text-align: center;
+}
+.item h3, p {
+    font-size: small;
+}
+/*Guests reviews*/
+.reviews {
+    background-image: url(/images/reviews-background.png);
+    height: 435px;
+    width: 99.5% vw;
+    display: flex;
+}
+#box {
+    background-color: black;
+    opacity: 80%;
+    height: 300px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    margin: 50px 245px;
+}
+#box p {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#box:hover {
+    opacity: 90%;
+}
+/*Just the right food*/
+.right-food {
+    height: 420px;
+    width: 99.5%vw;
+    background-image: url(/images/reservations-background.jpeg);
+    display: flex;
+}
+.right-food > div {
+    display: flex;
+}
+.right-food > div > img {
+    height: 300px;
+    width: 150px;
+    margin: 2%;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+/*Just the right food - reservations*/
+.food-form {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+}
+.food-form > h2 {
+    color: goldenrod;
+    text-align: center;
+    padding-top: 40px;
+}
+.food-form p {
+    width: 250px;
+    text-align: center;
+}
+.reservations {
+    flex-wrap: wrap;
+    font-family: 'Anaheim', sans-serif;
+    font-size: small;
+    color: goldenrod;
+}
+/*Book-now button*/
+.book-now {
+    height: 25px;
+    width: 150px;
+    background-color: goldenrod;
+    opacity: 60%;
+    color: white;
+    border: none;
+    margin-left: 60px;
+}
+.book-now:hover {
+    opacity: 100%;
+}
+/*Footer*/
+.footer {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: small;
+    display: flex;
+}
+.footer > div {
+    width: 33.3%;
+    height: 150px;
+    margin: 20px 25px 45px 20px;
+    text-align: center;
+}
+.footer h3 {
+    color: white;
+}
